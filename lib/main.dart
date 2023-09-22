@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
     var controller = Get.put(DarkModeController());
     return Obx(() => GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'Flutter Demo',
+          title: 'IT Zon',
           theme: ThemeData(
             brightness:
                 controller.isDark.value ? Brightness.dark : Brightness.light,
